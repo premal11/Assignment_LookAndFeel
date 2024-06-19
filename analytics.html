@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-fiction Books</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+      <div class="container">
+        <h1 class="logo">Nonfic Books</h1>
+          <button class="toggle-nav" aria-label="Open navigation"></button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="analytics.html">Analytics</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<section class="analytics">
+  <div class="chart-container">
+    <canvas id="bookTypesChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="viewsChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="ratingsChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="downloadsChart"></canvas>
+  </div>
+</section>
+
+    <script src="js/index.js"></script>
+<script src="js/Analytics.js"></script>
+</body>
+</html>
